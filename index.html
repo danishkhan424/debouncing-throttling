@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Debouncing & Throttling</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+        body{
+            margin: 0;
+            padding: 0;
+            
+        }
+        #parent{
+            height: 100vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: #83c497;
+
+        }
+        a{
+            text-align: center;
+            line-height: 55px;
+            border: none;
+            background-color: #331b3f;
+            width: 300px;
+            height: 56px;
+            border-radius: 10px;
+            font-size: 30px;
+            letter-spacing: 3px;
+            font-weight: bold;
+            font-family: "Poppins", sans-serif;
+            text-decoration: none;
+            color: #83c497;
+
+        }
+        a:hover{
+            background-color: #331b3fe5;
+        }
+        a:active{
+            transform: translateY(2px);
+        }
+        /* #parent button:nth-child(1){
+            font-size: 20px;
+
+        }
+        #parent button:nth-child(2){
+            border: 1px blue solid;
+        } */
+    </style>
+  </head>
+  <body>
+    <div id="parent">
+      <a href="debounce.html">Search Movie</a>
+      <a href="throttling.html">Food Recipe</a>
+    </div>
+  </body>
+</html>
