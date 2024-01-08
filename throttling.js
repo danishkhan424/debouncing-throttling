@@ -46,7 +46,7 @@ window.onload = () => {
       throttle = false;
       setTimeout(() => {
         throttle = true;
-      }, 1000);
+      }, 500);
     }
   });
 };
